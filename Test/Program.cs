@@ -7,6 +7,7 @@ using System.Text;
 using Test.Contexts;
 using Test.Entities;
 using Test.Repository;
+using Test.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +17,8 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddDbContext<UserDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddScoped<IHelperRepository, HelperRepository>();
+builder.Services.AddScoped<IJwtServices, JwtServices>();
+builder.Services.AddScoped<IUserServices, UserServices>();
 var jwt = builder.Configuration.GetSection("jwt").Get<Jwt>();
 builder.Services.AddSingleton(jwt);
 builder.Services.AddAuthentication()
@@ -31,7 +33,7 @@ builder.Services.AddAuthentication()
 
             ValidIssuer = jwt.Issuer,
             ValidAudience = jwt.Audience,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwt.SiningKey))
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwt.SigningKey))
         };
     });
 

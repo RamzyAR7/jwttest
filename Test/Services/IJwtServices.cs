@@ -2,7 +2,7 @@
 
 namespace Test.Repository
 {
-    public interface IHelperRepository
+    public interface IJwtServices
     {
         string CreateToken(User user);
     }

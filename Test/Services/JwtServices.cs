@@ -6,23 +6,31 @@ using Test.Entities;
 
 namespace Test.Repository
 {
-    public class HelperRepository : IHelperRepository
+    public class JwtServices : IJwtServices
     {
         private readonly Jwt _option;
 
-        public HelperRepository(Jwt option)
+        public JwtServices(Jwt option)
         {
             _option = option;
         }
         public string CreateToken(User user)
         {
+            //var x = new JwtSecurityToken(
+            //    issuer: _option.Issuer,
+            //    audience: _option.Audience,
+            //    signingCredentials:
+            //    Claim: 
+            //);
+            //return new JwtSecurityTokenHandler().WriteToken(x);
+
             var TokenHandler = new JwtSecurityTokenHandler();
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Issuer = _option.Issuer,
                 Audience = _option.Audience,
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_option.SiningKey)), SecurityAlgorithms.HmacSha256),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_option.SigningKey)), SecurityAlgorithms.HmacSha256),
                 Subject = new ClaimsIdentity(new Claim[]
                 {
                     new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),

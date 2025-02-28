@@ -1,26 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ahmed Ramzy\\source\\repos\\Test\\",
+  "WorkspaceRootPath": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|c:\\users\\ahmed ramzy\\source\\repos\\test\\test\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|solutionrelative:test\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|c:\\users\\ahmed ramzy\\source\\repos\\test\\test\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|solutionrelative:test\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|c:\\users\\ahmed ramzy\\source\\repos\\test\\test\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|c:\\users\\ahmed ramzy\\source\\repos\\jwttest\\test\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|solutionrelative:test\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|c:\\users\\ahmed ramzy\\source\\repos\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|c:\\users\\ahmed ramzy\\source\\repos\\jwttest\\test\\services\\jwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|solutionrelative:test\\services\\jwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|c:\\users\\ahmed ramzy\\source\\repos\\jwttest\\test\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|solutionrelative:test\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|c:\\users\\ahmed ramzy\\source\\repos\\jwttest\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|c:\\users\\ahmed ramzy\\source\\repos\\test\\test\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|solutionrelative:test\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|c:\\users\\ahmed ramzy\\source\\repos\\jwttest\\test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|solutionrelative:test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|c:\\users\\ahmed ramzy\\source\\repos\\jwttest\\test\\contexts\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|solutionrelative:test\\contexts\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|c:\\users\\ahmed ramzy\\source\\repos\\jwttest\\test\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B65D5E-40EC-4AE8-B256-27183129E514}|Test\\Test.csproj|solutionrelative:test\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,47 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\Test\\Test\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Test\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\Test\\Test\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Test\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T18:12:01.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserServices.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\Test\\Test\\Services\\IUserServices.cs",
-              "RelativeDocumentMoniker": "Test\\Services\\IUserServices.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\Test\\Test\\Services\\IUserServices.cs",
-              "RelativeToolTip": "Test\\Services\\IUserServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T17:44:11.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserServices.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\Test\\Test\\Services\\UserServices.cs",
-              "RelativeDocumentMoniker": "Test\\Services\\UserServices.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\Test\\Test\\Services\\UserServices.cs*",
-              "RelativeToolTip": "Test\\Services\\UserServices.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T17:32:22.311Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -81,34 +50,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\Test\\Test\\Program.cs",
-              "RelativeDocumentMoniker": "Test\\Program.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\Test\\Test\\Program.cs",
-              "RelativeToolTip": "Test\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "JwtServices.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\Services\\JwtServices.cs",
+              "RelativeDocumentMoniker": "Test\\Services\\JwtServices.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\Services\\JwtServices.cs",
+              "RelativeToolTip": "Test\\Services\\JwtServices.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T16:47:09.246Z",
+              "WhenOpened": "2025-02-28T19:39:07.156Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\Test\\Test\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Test\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\Test\\Test\\Controllers\\AuthController.cs*",
-              "RelativeToolTip": "Test\\Controllers\\AuthController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Test\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Test\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T18:01:17.053Z",
+              "WhenOpened": "2025-02-28T19:28:48.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "Test\\Services\\UserServices.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\Services\\UserServices.cs",
+              "RelativeToolTip": "Test\\Services\\UserServices.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvzcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T19:13:31.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\appsettings.json",
+              "RelativeDocumentMoniker": "Test\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\appsettings.json",
+              "RelativeToolTip": "Test\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-28T19:10:21.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\Contexts\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "Test\\Contexts\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\Contexts\\UserDbContext.cs",
+              "RelativeToolTip": "Test\\Contexts\\UserDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T19:07:41.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Test\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\Entities\\User.cs",
+              "RelativeToolTip": "Test\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T19:07:07.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\Program.cs",
+              "RelativeDocumentMoniker": "Test\\Program.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\jwttest\\Test\\Program.cs",
+              "RelativeToolTip": "Test\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:47:09.246Z",
               "EditorCaption": ""
             }
           ]

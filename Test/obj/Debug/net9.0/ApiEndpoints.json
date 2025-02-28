@@ -54,7 +54,7 @@
   {
     "ContainingType": "Test.Controllers.UserController",
     "Method": "GetUsers",
-    "RelativePath": "apiUser/getall",
+    "RelativePath": "apiUser/admin",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -62,6 +62,26 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.ICollection\u00601[[Test.Entities.User, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Test.Controllers.UserController",
+    "Method": "UsersOnly",
+    "RelativePath": "apiUser/user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",

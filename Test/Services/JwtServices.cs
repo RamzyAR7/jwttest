@@ -35,6 +35,7 @@ namespace Test.Repository
                 {
                     new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                     new Claim(ClaimTypes.Name, user.UserName),
+                    new Claim(ClaimTypes.Role, user.IsAdmin? "admin": "user")
                 })
             };
             var securitytoken = TokenHandler.CreateToken(tokenDescriptor);

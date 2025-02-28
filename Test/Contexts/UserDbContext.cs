@@ -1,16 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Test.Entities;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Test.Contexts
 {
-    public class UserDbContext: DbContext
+    public class UserDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
 
-        public UserDbContext(DbContextOptions options): base(options)
+        public UserDbContext(DbContextOptions options) : base(options)
         {
-            
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -24,6 +25,7 @@ namespace Test.Contexts
                 .HasDefaultValueSql("NEWID()");
                 u.Property(u => u.UserName).IsRequired();
                 u.Property(u => u.PasswordHash).IsRequired();
+                u.Property(u => u.IsAdmin).HasDefaultValue(false);
             });
         }
     }
